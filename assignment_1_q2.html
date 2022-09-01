@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Day 1</title>
+</head>
+<body>
+    <h1>Assignment</h1>
+    
+    <h2>Question 2</h2>
+    <fieldset>
+        <form action="" method="get">
+            <h2>Contact Info</h2>
+                <!--[a-zA-Z/S\a-zA-Z]  OR [a-zA-Z]+\s+[a-zA-Z]+ For Spacing-->
+                <input type="text" name="fname_lname" placeholder="Enter Firstname and Lastname" pattern="[a-zA-Z]+\s+[a-zA-Z]+" required/>
+                <input type="email" name="email" placeholder="Enter email address" required/>
+                <input type="tel" name="mname" placeholder="Enter phone number" pattern="[0-9]{10}" required/>
+                <input type="url" name="web" placeholder="Enter Web Address" required/>
+            
+            <h2>Preferences</h2>
+            
+            <input type="number" name="pref" placeholder="# of rc" value="0" min="1" max="10" required/>
+            <br>
+            <br>
+            <input type="submit" value="Submit info "/>
+        </form>
+
+    </fieldset>
+
+    <br>
+
+    <p>Next Questions </p>   
+    <a href="/assignment_1_q1.html">Question 1</a><br>
+    <a href="/assignment_1_q3.html">Question 3</a><br>
+    <a href="/assignment_1_q4.html">Question 4</a><br>
+    <a href="/assignment_1_q5.html">Question 5</a><br>  
+</body>
+</html>
